@@ -1,0 +1,59 @@
+
+Files tested for errors: 25 times.
+Errors found: 0
+
+
+Steps to follow:
+
+1. Unzip the files into a folder on your desktop.
+2. In the windows search bar, type 'Create a restore point' and run the program.
+3. A system properties menu should load up. Select a disk and click the 'Create...' button to create a backup of your current settings.
+4. In the windows search bar, type 'regedit' and run the program ad administrator.
+5. Click on the file tab at the top, and click export. Now export your current registry.
+6 .Run the files. Some files may require administrator previlages.
+
+
+Hope this helps you!!
+
+
+This is a detailed summary of what each of those files do. [for the nerds]
+
+1. Registry editor []
+
+   - Turns off device hibernation.
+   - Gives you access to advanced registry editor.
+   - Sets the windows priority difference to 26, which sets foreground apps to maximum priority and background ones to lowest. This requires manual setting of priority via task manager.
+   - Disables GPU power limits, accelerating performance and increases power consumption. 
+   - Disables throttling due to power limitations, increases power consumption.
+   - Sets maximum priority to Fullscreen Apps, accelerates performance.
+   - Reduces mouse latency.
+   - Closes resource hogging apps.
+   - CPU optimizations.
+   - Decreases delays during system processes.
+   - Reduces total cacheed data.
+   - Tweaks windows to give games maximum priority, boosting frames per second.
+   - Reduces display latency, may provide more frames per second.
+
+2. Windows Batch Files []
+
+   - Restricts useless processes from starting up or consuming resources, boosting memory and hard disk performace. [Doesn't affect SDDs]
+   - Cleans up temporary files. [Junk files, commonly called cached data]
+   - Turns off HPET.
+   - Sets Power Plan to maximum performace modes.
+   - HDD and SDD analysis and cleaner.
+
+3. Cleanup Software []
+
+   - Clean unnecessary hidden data manually. [.exe]
+   - Automatically prevent the aforementioned data from being stored. [.ini]
+
+4. Advanced CMD Optimizations []
+   - Disables uneccesary windows services. [Example: sysmain/superfetch]
+   - Increases paging file size.
+   - Reduces communication latency.
+   - Optimizes RAM.
+
+
+- None of these files have the potential to harm your PC.
+- Please do not redistribute without credits.
+- Contact me on discord for doubts or other details - snxw#5574
